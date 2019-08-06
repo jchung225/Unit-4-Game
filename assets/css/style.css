@@ -6,15 +6,36 @@ html{
 h1 {
 color: white;
 background-color: orange;
+display: inline-block;
 }
 
-
+.row{
+display: inline-block;
+background-color: aqua;
+}
 .container{
  color: green;
  background-color: tan;
+ display: inline-block;
 }
 #totalscoreheader{
 color: white;
 background-color: turquoise;
+}
+
+.clearfix::after {
+   content: “”;
+   clear: both;
+   display: table;
+ }
+ .gem{
+     float: left;
+ }
+ .gem-img{
+    height: 100px;
+    width: 100px;
+}
+#totalscoreheader{
+    display: inline-block;
 }
 
